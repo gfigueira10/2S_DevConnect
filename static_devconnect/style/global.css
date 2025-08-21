@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Galada&family=Lexend:wght@100..900&display=swap');
+
+:root{
+    --cor-preto: #000000;
+    --cor-verde-escuro: #333c31;
+    --cor-cinza: #6e8169;
+    --cor-verde-claro1: #8abb7c;
+    --cor-verde-claro2: #8ce670;
+    --cor-branco: #FFFFFF;
+
+    --borda: 1px solid var(--cor-verde-claro1);
+    --borda-arredondada: 2px;
+
+    --tamanho-fonte-lg: 20px;
+    --tamanho-fonte-md: 16px;
+    --tamanho-fonte-sm: 14px;
+
+}
+
+    @font-face {
+        font-family: Lexend;
+        src: url(../fonts/Fascinate\,Lexend\,Galada/Lexend),
+            url(../fonts/Fascinate\,Lexend\,Galada/sans-serif);
+    }
+
+    @font-face {
+        font-family: Fascinate;
+        src: url(../fonts/Fascinate\,Lexend\,Galada/Fascinate),
+            url(../fonts/Fascinate\,Lexend\,Galada/sans-serif);
+    }
+
+    @font-face {
+        font-family: Galada;
+        src: url(../fonts/Fascinate\,Lexend\,Galada/Galada),
+            url(../fonts/Galada/Galada-Regular.ttf);
+    }
+
+
+
+     /*    Seletor Global      */
+
+
+*{
+    font-family: "Lexend", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body{
+    background-color: var(#fafafa);
+}
+
+
+
+
+h1{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+
+/*  Formulario */
+
+input{
+    width: 100%;
+    height: 35px;
+    border: var(--borda);
+    background-color: var(--cor-verde-escuro);
+}
